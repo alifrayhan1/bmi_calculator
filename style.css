@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#bmi {
+  background: linear-gradient(
+    90deg,
+    hsla(94, 100%, 70%, 1) 0%,
+    hsla(0, 100%, 77%, 1) 100%
+  );
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+}
+#form {
+  h1 {
+    color: red;
+  }
+  .number {
+    display: block;
+    background: linear-gradient(
+      90deg,
+      hsla(333, 100%, 53%, 1) 0%,
+      hsla(33, 94%, 57%, 1) 100%
+    );
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 3px;
+    color: white;
+  }
+  input:focus {
+    outline: none;
+  }
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: limegreen;
+    color: snow;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+}
+#result {
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  margin: 20px 0 10px;
+  display: none;
+}
+#guide {
+  border: 1px solid salmon;
+  padding: 10px;
+  border-radius: 10px;
+}
